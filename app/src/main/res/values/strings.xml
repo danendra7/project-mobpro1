@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Assessment 1</string>
+    <string name="app_intro">Selamat datang di aplikasi pemesanan makanan kami, di mana Anda dapat menikmati beragam hidangan lezat dengan mudah dan cepat, langsung dari genggaman Anda.</string>
+    <string name="nama_pemesan">Nama Anda</string>
+    <string name="jumlah_pesanan">Jumlah Pesanan</string>
+    <string name="burger">Burger</string>
+    <string name="hot_dog">Hot Dog</string>
+    <string name="fried_chiken">Ayam Goreng</string>
+    <string name="input_invalid">Tidak boleh kosong</string>
 </resources>
