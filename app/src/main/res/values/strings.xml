@@ -6,6 +6,8 @@
     <string name="dine_in">Dine in</string>
     <string name="take_away">Take away</string>
     <string name="pesan">Pesan</string>
+    <string name="gambar">Gambar %1$s</string>
+    <string name="saya">Foto Danendra Satriyo Buwono</string>
     <string name="bagikan">Bagikan</string>
     <string name="kembali">Kembali</string>
     <string name="invoice">Nama       : %1$s\nJumlah     : %2$s\nTotal harga: %3$.2f Rupiah\nSecara %4$s telah diproses</string>

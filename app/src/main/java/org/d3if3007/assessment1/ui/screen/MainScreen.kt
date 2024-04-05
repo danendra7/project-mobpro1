@@ -70,7 +70,7 @@ fun MainScreen(navController: NavHostController) {
                     titleContentColor = MaterialTheme.colorScheme.primary
                 ),
                 actions = {
-                    IconButton(onClick = {navController.navigate(Screen.About.route)}) {
+                    IconButton(onClick = { navController.navigate(Screen.About.route) }) {
                         Icon(
                             imageVector = Icons.Outlined.Info,
                             contentDescription = stringResource(id = R.string.tentang_aplikasi),
@@ -281,12 +281,11 @@ private fun shareData(
     }
 }
 
-
 @Preview(showBackground = true)
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_YES, showBackground = true)
 @Composable
 fun AboutScreenPreview() {
     Assessment1Theme {
-        MainScreen(rememberNavController()  )
+        MainScreen(rememberNavController())
     }
 }

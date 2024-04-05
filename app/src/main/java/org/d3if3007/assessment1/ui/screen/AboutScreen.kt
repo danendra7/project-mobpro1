@@ -1,7 +1,10 @@
 package org.d3if3007.assessment1.ui.screen
 
 import android.content.res.Configuration
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -13,7 +16,9 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -27,13 +32,18 @@ import org.d3if3007.assessment1.ui.theme.Assessment1Theme
 fun AboutScreen(navController: NavHostController) {
     Scaffold(
         topBar = {
-            TopAppBar(navigationIcon = {
-                IconButton(onClick = { navController.popBackStack()}) {
-                    Icon(imageVector = Icons.Filled.ArrowBack, contentDescription = stringResource(
-                        id = R.string.kembali
-                    ), tint = MaterialTheme.colorScheme.primary )
-                }
-            },
+            TopAppBar(
+                navigationIcon = {
+                    IconButton(onClick = { navController.popBackStack() }) {
+                        Icon(
+                            imageVector = Icons.Filled.ArrowBack,
+                            contentDescription = stringResource(
+                                id = R.string.kembali
+                            ),
+                            tint = MaterialTheme.colorScheme.primary
+                        )
+                    }
+                },
                 title = {
                     Text(text = stringResource(id = R.string.tentang_aplikasi))
                 },
@@ -44,9 +54,20 @@ fun AboutScreen(navController: NavHostController) {
             )
         }
     ) { padding ->
-        Text(text = stringResource(id = R.string.copyright), modifier = Modifier
-            .padding(padding)
-            .padding(16.dp))
+        Column  {
+            Text(
+                text = stringResource(id = R.string.copyright), modifier = Modifier
+                    .padding(padding)
+                    .padding(16.dp)
+            )
+            Image(
+                painter = painterResource(id = R.drawable.profil),
+                contentDescription = stringResource(id = R.string.saya),
+                modifier = Modifier.size(128.dp),
+                Alignment.Center
+            )
+        }
+
     }
 }
 

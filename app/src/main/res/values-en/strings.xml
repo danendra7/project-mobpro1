@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Assessment 1</string>
+    <string name="app_intro">Welcome to our food ordering app, where you can enjoy a variety of delicious dishes easily and quickly, right from your fingertips.\"</string>
+    <string name="nama_pemesan">Your Name</string>
+    <string name="jumlah_pesanan">Order Quantity</string>
+    <string name="dine_in">Dine in</string>
+    <string name="take_away">Take away</string>
+    <string name="pesan">Order</string>
+    <string name="gambar">Image</string>
+    <string name="bagikan">Share</string>
+    <string name="kembali">Back</string>
+    <string name="invoice">Name       : %1$s\\nQuantity     : %2$s\\nPrice Total: %3$.2f Rupiah\\nServed %4$s is Processed</string>
+    <string name="input_invalid">Fill the blank</string>
+    <string name="bagikan_template">Saya telah memesan sebanyak %1$s\\nTotal harga %2$.2f Rupiah\\nSecara %3$s</string>
+    <string name="tentang_aplikasi">About Application</string>
+    <string name="copyright">This application is a food ordering app with options for dine-in or takeaway, allowing users to place orders more conveniently.</string>
+    <string name="saya">Danendra\'s Picture</string>
+</resources>
