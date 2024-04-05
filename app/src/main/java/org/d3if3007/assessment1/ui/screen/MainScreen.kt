@@ -260,7 +260,7 @@ private fun shareData(
 @Preview(showBackground = true)
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_YES, showBackground = true)
 @Composable
-fun ScreenPreview() {
+fun AboutScreenPreview() {
     Assessment1Theme {
         MainScreen()
     }

@@ -10,4 +10,6 @@
     <string name="invoice">Nama       : %1$s\nJumlah     : %2$s\nTotal harga: %3$.2f Rupiah\nSecara %4$s telah diproses</string>
     <string name="input_invalid">Tidak boleh kosong</string>
     <string name="bagikan_template">Saya telah memesan sebanyak %1$s\nTotal harga %2$.2f Rupiah\nSecara %3$s</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="copyright">sajdwasdabhwdabsfhasjdadwadajds</string>
 </resources>
