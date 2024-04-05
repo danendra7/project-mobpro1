@@ -3,8 +3,11 @@
     <string name="app_intro">Selamat datang di aplikasi pemesanan makanan kami, di mana Anda dapat menikmati beragam hidangan lezat dengan mudah dan cepat, langsung dari genggaman Anda.</string>
     <string name="nama_pemesan">Nama Anda</string>
     <string name="jumlah_pesanan">Jumlah Pesanan</string>
-    <string name="burger">Burger</string>
-    <string name="hot_dog">Hot Dog</string>
-    <string name="fried_chiken">Ayam Goreng</string>
+    <string name="dine_in">Dine in</string>
+    <string name="take_away">Take away</string>
+    <string name="pesan">Pesan</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="invoice">Nama       : %1$s\nJumlah     : %2$s\nTotal harga: %3$.2f Rupiah\nSecara %4$s telah diproses</string>
     <string name="input_invalid">Tidak boleh kosong</string>
+    <string name="bagikan_template">Saya telah memesan sebanyak %1$s\nTotal harga %2$.2f Rupiah\nSecara %3$s</string>
 </resources>
