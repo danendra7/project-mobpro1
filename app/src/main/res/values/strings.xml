@@ -7,9 +7,10 @@
     <string name="take_away">Take away</string>
     <string name="pesan">Pesan</string>
     <string name="bagikan">Bagikan</string>
+    <string name="kembali">Kembali</string>
     <string name="invoice">Nama       : %1$s\nJumlah     : %2$s\nTotal harga: %3$.2f Rupiah\nSecara %4$s telah diproses</string>
     <string name="input_invalid">Tidak boleh kosong</string>
     <string name="bagikan_template">Saya telah memesan sebanyak %1$s\nTotal harga %2$.2f Rupiah\nSecara %3$s</string>
     <string name="tentang_aplikasi">Tentang Aplikasi</string>
-    <string name="copyright">sajdwasdabhwdabsfhasjdadwadajds</string>
+    <string name="copyright">Aplikasi ini adalah aplikasi untuk memesan makanan dengan pilihan dine in atau takeaway sehingga pengguna dapat memesan secara lebih mudah.\nAplikasi ini dibuat untuk Assessment 1 Mata Kuliah Mobpro 1.\n\nCopyright © 2024 Danendra Satriyo Buwono\nAll rights reserved.</string>
 </resources>
